@@ -5,6 +5,8 @@ export interface ServiceItem {
   title: string;
   description: string;
   backgroundImage?: string;
+  imageAlt?: string;
+  whatsappMessage?: string;
 }
 
 export interface ServiceCategory {

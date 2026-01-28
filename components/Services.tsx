@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { SERVICES, WHATSAPP_LINK } from '../constants';
+import { SERVICES, WHATSAPP_LINK, WHATSAPP_NUMBER } from '../constants';
 import { ArrowRight, Check } from 'lucide-react';
 
 const Services: React.FC = () => {
@@ -19,6 +19,11 @@ const Services: React.FC = () => {
           {SERVICES.map((cat, idx) => {
             const service = cat.items[0];
             const bulletPoints = service.description.split(', ');
+            
+            // Generate wa.me link with encoded message for each category
+            const customLink = service.whatsappMessage 
+              ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(service.whatsappMessage)}`
+              : WHATSAPP_LINK;
             
             return (
               <div 
@@ -57,7 +62,7 @@ const Services: React.FC = () => {
                     </ul>
                     
                     <a 
-                      href={WHATSAPP_LINK}
+                      href={customLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center bg-[#fbbf24] hover:bg-yellow-500 text-gray-900 px-8 py-4 rounded-xl font-montserrat font-extrabold text-xs uppercase tracking-widest transition-all shadow-lg hover:scale-105 active:scale-95"
@@ -72,7 +77,7 @@ const Services: React.FC = () => {
                 <div className="lg:w-[60%] relative overflow-hidden">
                   <img 
                     src={service.backgroundImage} 
-                    alt={service.title} 
+                    alt={service.imageAlt || service.title} 
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                   />
                   {/* Overlay to blend with text on smaller screens */}

@@ -81,7 +81,7 @@ const Footer: React.FC<FooterProps> = ({ onAdminClick }) => {
               </li>
               <li className="flex items-center space-x-3">
                 <WhatsAppIcon className="w-4 h-4 text-[#fbbf24] shrink-0" />
-                <a href={WHATSAPP_LINK} className="font-bold text-white hover:text-[#fbbf24] transition-colors">WhatsApp: (71) 99323-2161</a>
+                <a href={WHATSAPP_LINK} className="font-bold text-white hover:text-[#fbbf24] transition-colors">WhatsApp: (71) 99322-32161</a>
               </li>
               <li className="flex items-center space-x-3">
                 <Instagram className="w-4 h-4 text-[#fbbf24] shrink-0" />

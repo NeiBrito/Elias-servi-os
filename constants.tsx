@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import { ServiceCategory, FeatureItem } from './types';
 
-export const WHATSAPP_NUMBER = "5571993232161";
+export const WHATSAPP_NUMBER = "55719932232161";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20toldos%20ou%20coberturas.`;
 export const INSTAGRAM_LINK = "https://www.instagram.com/eliasnogueira909";
 export const GOOGLE_REVIEWS_LINK = "https://www.google.com/search?q=elias+servicos+salvador";
@@ -78,7 +78,9 @@ export const SERVICES: ServiceCategory[] = [
       { 
         title: "Toldos de Alta Resistência", 
         description: "Lona de alta resistência, policarbonato translúcido, acionamento automático, 5 anos de garantia.",
-        backgroundImage: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&q=80&w=1200"
+        backgroundImage: "https://i.postimg.cc/HLGpYDVy/Whats-App-Image-2026-01-27-at-12-37-19-PM.jpg",
+        imageAlt: "Instalação de toldo retrátil laranja de alta resistência pela Elias Serviços",
+        whatsappMessage: "Olá! Gostaria de um orçamento para os Toldos Retráteis de Alta Resistência que vi no site."
       }
     ]
   },
@@ -88,8 +90,9 @@ export const SERVICES: ServiceCategory[] = [
     items: [
       { 
         title: "Coberturas em Policarbonato", 
-        description: "Resistente a UV, leve e durável, variedade de cores, instalação rápida para áreas gourmet.",
-        backgroundImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200"
+        description: "Resistente a UV, leve e durável, variedade de cores, installation rápida para áreas gourmet.",
+        backgroundImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
+        whatsappMessage: "Olá! Gostaria de um orçamento para as Coberturas em Policarbonato que vi no site."
       }
     ]
   },
@@ -100,7 +103,9 @@ export const SERVICES: ServiceCategory[] = [
       { 
         title: "Soluções em Vidro e Mais", 
         description: "Box para banheiro, portas, janelas, portões de vidro, vasos para plantas sob medida.",
-        backgroundImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200"
+        backgroundImage: "https://i.postimg.cc/Px4Psjgh/box-para-banheiro.jpg",
+        imageAlt: "Box de vidro temperado moderno instalado pela Elias Serviços",
+        whatsappMessage: "Olá! Gostaria de um orçamento para as Soluções em Vidro e Mais (box, portas, janelas) que vi no site."
       }
     ]
   }
@@ -139,7 +144,7 @@ export const GALLERY_IMAGES = [
     title: "COBERTURA DE POLICARBONATO MODERNA"
   },
   {
-    url: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=1200",
+    url: "https://i.postimg.cc/Px4Psjgh/box-para-banheiro.jpg",
     title: "BOX DE VIDRO TEMPERADO MODERNO"
   },
   {
