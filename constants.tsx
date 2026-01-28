@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { 
   ShieldCheck, 
@@ -10,7 +11,7 @@ import {
 } from 'lucide-react';
 import { ServiceCategory, FeatureItem } from './types';
 
-export const WHATSAPP_NUMBER = "55719932232161";
+export const WHATSAPP_NUMBER = "5571993232161";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20toldos%20ou%20coberturas.`;
 export const INSTAGRAM_LINK = "https://www.instagram.com/eliasnogueira909";
 export const GOOGLE_REVIEWS_LINK = "https://www.google.com/search?q=elias+servicos+salvador";
