@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { 
   ShieldCheck, 
@@ -78,7 +77,7 @@ export const SERVICES: ServiceCategory[] = [
       { 
         title: "Toldos de Alta Resistência", 
         description: "Lona de alta resistência, policarbonato translúcido, acionamento automático, 5 anos de garantia.",
-        backgroundImage: "https://i.postimg.cc/HLGpYDVy/Whats-App-Image-2026-01-27-at-12-37-19-PM.jpg",
+        backgroundImage: "https://i.postimg.cc/fWpWdRQW/5.jpg",
         imageAlt: "Instalação de toldo retrátil laranja de alta resistência pela Elias Serviços",
         whatsappMessage: "Olá! Gostaria de um orçamento para os Toldos Retráteis de Alta Resistência que vi no site."
       }
@@ -90,7 +89,7 @@ export const SERVICES: ServiceCategory[] = [
     items: [
       { 
         title: "Coberturas em Policarbonato", 
-        description: "Resistente a UV, leve e durável, variedade de cores, installation rápida para áreas gourmet.",
+        description: "Resistente a UV, leve e durável, variedade de cores, instalação rápida para áreas gourmet.",
         backgroundImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
         whatsappMessage: "Olá! Gostaria de um orçamento para as Coberturas em Policarbonato que vi no site."
       }

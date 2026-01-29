@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CheckCircle2, Shield, Wrench, Thermometer } from 'lucide-react';
 
@@ -11,7 +10,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/2 relative">
             <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white">
               <img 
-                src="https://i.postimg.cc/qRb0VqZ9/Whats-App-Image-2026-01-27-at-9-07-42-PM.jpg" 
+                src="https://i.postimg.cc/HLGPyDVy/Whats-App-Image-2026-01-27-at-12-37-19-PM.jpg" 
                 alt="Equipe Elias Serviços em Instalação" 
                 className="w-full h-[600px] object-cover"
               />
