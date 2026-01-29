@@ -90,7 +90,7 @@ export const SERVICES: ServiceCategory[] = [
       { 
         title: "Cobertura de Vidro", 
         description: "Vidro temperado de alta segurança, proteção UV com película, durabilidade extrema, design moderno para áreas gourmet.",
-        backgroundImage: "https://i.postimg.cc/XvdzY36W/Whats-App-Image-2026-01-29-at-10-12-48-AM.jpg",
+        backgroundImage: "https://i.postimg.cc/hjTbkF5W/Whats-App-Image-2026-01-29-at-1-17-37-PM.jpg",
         whatsappMessage: "Olá! Gostaria de um orçamento para a Cobertura de Vidro que vi no site."
       }
     ]
