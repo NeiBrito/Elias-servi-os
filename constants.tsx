@@ -88,10 +88,10 @@ export const SERVICES: ServiceCategory[] = [
     icon: <Layers />,
     items: [
       { 
-        title: "Coberturas em Policarbonato", 
-        description: "Resistente a UV, leve e durável, variedade de cores, instalação rápida para áreas gourmet.",
+        title: "Cobertura de Vidro", 
+        description: "Vidro temperado de alta segurança, proteção UV com película, durabilidade extrema, design moderno para áreas gourmet.",
         backgroundImage: "https://i.postimg.cc/XvdzY36W/Whats-App-Image-2026-01-29-at-10-12-48-AM.jpg",
-        whatsappMessage: "Olá! Gostaria de um orçamento para as Coberturas em Policarbonato que vi no site."
+        whatsappMessage: "Olá! Gostaria de um orçamento para a Cobertura de Vidro que vi no site."
       }
     ]
   },
