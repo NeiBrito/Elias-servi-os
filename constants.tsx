@@ -90,7 +90,7 @@ export const SERVICES: ServiceCategory[] = [
       { 
         title: "Coberturas em Policarbonato", 
         description: "Resistente a UV, leve e durável, variedade de cores, instalação rápida para áreas gourmet.",
-        backgroundImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
+        backgroundImage: "https://i.postimg.cc/XvdzY36W/Whats-App-Image-2026-01-29-at-10-12-48-AM.jpg",
         whatsappMessage: "Olá! Gostaria de um orçamento para as Coberturas em Policarbonato que vi no site."
       }
     ]
@@ -135,8 +135,8 @@ export const FEATURES: FeatureItem[] = [
 
 export const GALLERY_IMAGES = [
   {
-    url: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&q=80&w=1200",
-    title: "TOLDO FIXO EM RESTAURANTE"
+    url: "https://i.postimg.cc/bYmyfGcn/Whats-App-Image-2026-01-29-at-10-14-32-AM.jpg",
+    title: "COBERTURA EM COLÉGIO"
   },
   {
     url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
@@ -147,7 +147,7 @@ export const GALLERY_IMAGES = [
     title: "BOX DE VIDRO TEMPERADO MODERNO"
   },
   {
-    url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200",
+    url: "https://i.postimg.cc/L5pR8vWp/Whats-App-Image-2026-01-29-at-10-12-47-AM.jpg",
     title: "PORTÃO DE VIDRO RESIDENCIAL DE LUXO"
   }
 ];
