@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { WHATSAPP_LINK } from '../constants';
 import { MapPin } from 'lucide-react';
@@ -43,13 +42,6 @@ const Hero: React.FC = () => {
               SOLICITE ORÇAMENTO
               <WhatsAppIcon className="ml-3 w-5 h-5" />
             </a>
-            
-            <div className="flex items-center space-x-3 px-2">
-              <div className="w-12 h-12 rounded-full border-2 border-[#fbbf24] flex items-center justify-center">
-                <span className="text-white text-xs font-bold">5 ANOS</span>
-              </div>
-              <span className="text-white text-[10px] font-bold uppercase tracking-widest leading-none">Garantia de <br/>Fábrica Especial</span>
-            </div>
           </div>
         </div>
       </div>

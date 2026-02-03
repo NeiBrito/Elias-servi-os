@@ -42,7 +42,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Ana Beatriz",
     location: "Barra",
-    text: "O Elias é muito profissional. Cumpriu o prazo de 7 dias rigorosamente. Recomendo para quem busca qualidade.",
+    text: "O Elias é muito profissional. Atendimento ágil e de alta qualidade. Recomendo para quem busca o melhor.",
     initials: "AB",
     rating: 5
   },
@@ -76,7 +76,7 @@ export const SERVICES: ServiceCategory[] = [
     items: [
       { 
         title: "Toldos de Alta Resistência", 
-        description: "Lona de alta resistência, policarbonato translúcido, acionamento automático, 5 anos de garantia.",
+        description: "Lona de alta resistência, policarbonato translúcido, acionamento automático, 3 anos de garantia.",
         backgroundImage: "https://i.postimg.cc/fWpWdRQW/5.jpg",
         imageAlt: "Instalação de toldo retrátil laranja de alta resistência pela Elias Serviços",
         whatsappMessage: "Olá! Gostaria de um orçamento para os Toldos Retráteis de Alta Resistência que vi no site."
@@ -117,18 +117,18 @@ export const FEATURES: FeatureItem[] = [
     icon: <CheckCircle2 className="w-8 h-8 text-[#1e40af]" />
   },
   {
-    title: "Instalação em 7 Dias",
-    description: "Compromisso com prazos rápidos sem abrir mão da qualidade estrutural.",
+    title: "Instalação a Combinar",
+    description: "Compromisso com agilidade e flexibilidade para atender sua necessidade específica.",
     icon: <Clock className="w-8 h-8 text-[#1e40af]" />
   },
   {
     title: "Garantia Estendida",
-    description: "Selo de 5 anos de garantia em nossas estruturas para sua total tranquilidade.",
+    description: "Selo de 3 anos de garantia em nossas estruturas para sua total tranquilidade.",
     icon: <ShieldCheck className="w-8 h-8 text-[#1e40af]" />
   },
   {
-    title: "Material Importado",
-    description: "Trabalhamos apenas com materiais certificados e de primeira linha internacional.",
+    title: "Materiais Premium",
+    description: "Trabalhamos apenas com materiais certificados e de primeira linha.",
     icon: <Package className="w-8 h-8 text-[#1e40af]" />
   }
 ];

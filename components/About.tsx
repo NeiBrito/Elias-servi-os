@@ -19,7 +19,7 @@ const About: React.FC = () => {
             {/* Badge Flutuante */}
             <div className="absolute -bottom-10 -right-10 z-20 bg-[#fbbf24] p-10 rounded-[2.5rem] shadow-2xl shadow-yellow-500/30 border-8 border-white hidden md:block">
               <div className="text-center">
-                <span className="block text-5xl font-black text-[#1e40af] leading-none mb-2">+14</span>
+                <span className="block text-5xl font-black text-[#1e40af] leading-none mb-2">+40</span>
                 <span className="block text-[10px] font-black text-[#1e40af] uppercase tracking-[0.3em]">Anos de <br/>Experiência</span>
               </div>
             </div>
@@ -36,7 +36,7 @@ const About: React.FC = () => {
             </h3>
             
             <p className="text-gray-600 text-lg leading-relaxed mb-10 font-medium">
-              Com mais de uma década de atuação em Salvador, a <strong>Elias Serviços</strong> consolidou-se como referência em toldos e coberturas. Nosso compromisso vai além da proteção solar: entregamos durabilidade, estética e segurança para sua família ou negócio.
+              Com mais de <strong>quatro décadas</strong> de atuação em Salvador, a <strong>Elias Serviços</strong> consolidou-se como referência em toldos e coberturas. Nosso compromisso vai além da proteção solar: entregamos durabilidade, estética e segurança para sua família ou negócio.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { WHATSAPP_LINK, INSTAGRAM_LINK, COMPANY_CNPJ } from '../constants';
 import { Instagram, MapPin } from 'lucide-react';
@@ -27,7 +26,7 @@ const Footer: React.FC<FooterProps> = ({ onAdminClick }) => {
           <div className="lg:col-span-2">
             <div className="flex flex-col mb-8">
               <span className="font-montserrat font-extrabold text-3xl tracking-tight text-white">ELIAS SERVIÇOS</span>
-              <span className="text-[#fbbf24] text-[10px] font-bold uppercase tracking-[0.4em] mt-1">Soluções Sob Medida desde 2010</span>
+              <span className="text-[#fbbf24] text-[10px] font-bold uppercase tracking-[0.4em] mt-1">Soluções Sob Medida há 40 anos</span>
             </div>
             <p className="text-gray-400 text-base leading-relaxed mb-8 max-w-sm">
               Especialistas em toldos retráteis e coberturas de policarbonato para Salvador e região metropolitana. Qualidade, prazo e garantia real.

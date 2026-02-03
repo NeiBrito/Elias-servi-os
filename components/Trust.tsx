@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Star, MapPin, MessageSquare, Send, CheckCircle, Quote, X, ShieldCheck } from 'lucide-react';
 import { TESTIMONIALS } from '../constants';
@@ -272,7 +271,7 @@ const Trust: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-white font-montserrat font-extrabold text-2xl mb-2">Garantia Técnica Elias</h4>
-                <p className="text-gray-400 text-[10px] font-bold uppercase tracking-[0.3em]">Selo de 5 Anos em toda a estrutura instalada.</p>
+                <p className="text-gray-400 text-[10px] font-bold uppercase tracking-[0.3em]">Selo de 3 Anos em toda a estrutura instalada.</p>
               </div>
             </div>
             <div className="flex space-x-6 opacity-30 grayscale hover:grayscale-0 transition-all">
