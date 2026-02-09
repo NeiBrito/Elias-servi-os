@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Star, MapPin, MessageSquare, Send, CheckCircle, Quote, X, ShieldCheck } from 'lucide-react';
+import { Star, MapPin, MessageSquare, Send, CheckCircle, Quote, X } from 'lucide-react';
 import { TESTIMONIALS } from '../constants';
 import { Comment } from '../types';
 
@@ -260,27 +260,6 @@ const Trust: React.FC = () => {
             </div>
           </div>
         )}
-
-        {/* SEÇÃO DE GARANTIA (STICKER) */}
-        <div className="mt-24 max-w-5xl mx-auto bg-gray-900 rounded-[3rem] p-10 md:p-12 relative overflow-hidden group border border-white/5">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
-          <div className="flex flex-col md:flex-row items-center justify-between gap-10 relative z-10 text-center md:text-left">
-            <div className="flex items-center space-x-8">
-              <div className="w-20 h-20 bg-[#fbbf24] rounded-3xl flex items-center justify-center shadow-2xl shadow-yellow-500/20 rotate-3 group-hover:rotate-0 transition-transform">
-                <ShieldCheck className="w-10 h-10 text-[#1e40af]" />
-              </div>
-              <div>
-                <h4 className="text-white font-montserrat font-extrabold text-2xl mb-2">Garantia Técnica Elias</h4>
-                <p className="text-gray-400 text-[10px] font-bold uppercase tracking-[0.3em]">Selo de 3 Anos em toda a estrutura instalada.</p>
-              </div>
-            </div>
-            <div className="flex space-x-6 opacity-30 grayscale hover:grayscale-0 transition-all">
-               <span className="font-black italic text-lg text-white">QUALIDADE</span>
-               <span className="font-black italic text-lg text-white">PRAZO</span>
-               <span className="font-black italic text-lg text-white">SEGURANÇA</span>
-            </div>
-          </div>
-        </div>
 
       </div>
     </section>

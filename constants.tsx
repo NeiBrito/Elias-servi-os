@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { ServiceCategory, FeatureItem } from './types';
 
-export const WHATSAPP_NUMBER = "55719932232161";
+export const WHATSAPP_NUMBER = "5571993232161";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20toldos%20ou%20coberturas.`;
 export const INSTAGRAM_LINK = "https://www.instagram.com/eliasnogueira909";
 export const GOOGLE_REVIEWS_LINK = "https://www.google.com/search?q=elias+servicos+salvador";
@@ -76,7 +76,7 @@ export const SERVICES: ServiceCategory[] = [
     items: [
       { 
         title: "Toldos de Alta Resistência", 
-        description: "Lona de alta resistência, policarbonato translúcido, acionamento automático, 3 anos de garantia.",
+        description: "Lona de alta resistência, policarbonato translúcido, acionamento automático, estrutura reforçada.",
         backgroundImage: "https://i.postimg.cc/fWpWdRQW/5.jpg",
         imageAlt: "Instalação de toldo retrátil laranja de alta resistência pela Elias Serviços",
         whatsappMessage: "Olá! Gostaria de um orçamento para os Toldos Retráteis de Alta Resistência que vi no site."
@@ -120,11 +120,6 @@ export const FEATURES: FeatureItem[] = [
     title: "Instalação a Combinar",
     description: "Compromisso com agilidade e flexibilidade para atender sua necessidade específica.",
     icon: <Clock className="w-8 h-8 text-[#1e40af]" />
-  },
-  {
-    title: "Garantia Estendida",
-    description: "Selo de 3 anos de garantia em nossas estruturas para sua total tranquilidade.",
-    icon: <ShieldCheck className="w-8 h-8 text-[#1e40af]" />
   },
   {
     title: "Materiais Premium",
