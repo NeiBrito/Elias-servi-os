@@ -42,7 +42,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Ana Beatriz",
     location: "Barra",
-    text: "O Elias é muito profissional. Atendimento ágil e de alta qualidade. Recomendo para quem busca o melhor.",
+    text: "O Elias é muito profissional. Atendimento ágil e de alta qualidade. Recomendo para quem busca the best.",
     initials: "AB",
     rating: 5
   },
@@ -130,8 +130,8 @@ export const FEATURES: FeatureItem[] = [
 
 export const GALLERY_IMAGES = [
   {
-    url: "https://i.postimg.cc/bYmyfGcn/Whats-App-Image-2026-01-29-at-10-14-32-AM.jpg",
-    title: "COBERTURA EM COLÉGIO"
+    url: "https://i.postimg.cc/NFW8RFFq/Whats-App-Image-2026-02-10-at-9-05-16-AM.jpg",
+    title: "Cobertura de Policarbonato com estrutura metálica."
   },
   {
     url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
